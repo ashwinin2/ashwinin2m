@@ -37,10 +37,5 @@ pipeline{
 		}
 	}
 
-	post {
-		always {
-			sh echo 'docker push is successfull'
-		}
-	}
-
+	
 }
