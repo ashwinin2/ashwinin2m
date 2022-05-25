@@ -39,7 +39,7 @@ pipeline{
 
 	post {
 		always {
-			sh 'docker logout'
+			sh echo 'docker push is successfull'
 		}
 	}
 
