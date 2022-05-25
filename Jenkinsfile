@@ -18,7 +18,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t ashwinin2m/dockerfile:latest'
+				sh 'docker build -it -d ashwinin2m/dockerfile:latest .'
 			}
 		}
 
