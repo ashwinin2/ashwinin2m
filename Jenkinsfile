@@ -39,7 +39,7 @@ pipeline{
 
 	post {
 		always {
-			sh echo 'this is my first jenkins Pipeline'
+			sh 'echo this is my first jenkins Pipeline'
 			sh 'docker logout'
 		}
 	}
