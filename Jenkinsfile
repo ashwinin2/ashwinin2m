@@ -12,13 +12,14 @@ pipeline{
 
 			steps {
 				git 'https://github.com/ashwinin2/ashwinin2m.git'
+
 			}
 		}
 
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t ashwinin2m/dockerfile:latest .'
+				sh 'docker build -t ashwinin2/ashwinin2m/dockerfile:latest'
 			}
 		}
 
